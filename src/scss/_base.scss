@@ -30,5 +30,13 @@ section,aside{
 }
 .background{
   transform: translateZ(-1px);
+  background-color: green;
   /* transform: translateZ(-2px) scale(3); */
+}
+.parallax-header{
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }

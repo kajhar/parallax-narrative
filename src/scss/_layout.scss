@@ -87,3 +87,11 @@ nav ul li {
     background: white;
   }
 }
+
+.background-grid{
+  display: grid;
+  grid-template: 100px / 33% 33% 33%;
+  // left: 50%;
+  // top: 50%;
+  // transform: translate(-50%, -50%);
+}
