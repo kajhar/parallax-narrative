@@ -88,10 +88,16 @@ nav ul li {
   }
 }
 
-.background-grid{
+.matrix-grid{
   display: grid;
-  grid-template: 100px / 33% 33% 33%;
+  grid-template: 100vh / 33% 33% 33%;
+  height: 350vh;
   // left: 50%;
   // top: 50%;
   // transform: translate(-50%, -50%);
+}
+
+.matrix-column{
+  width: 0.5em;
+  // color: $text;
 }

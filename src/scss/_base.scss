@@ -28,9 +28,13 @@ section,aside{
   transform: translateZ(0);
   /* transform: translateZ(-1px) scale(2); */
 }
-.background{
+.midground{
   transform: translateZ(-1px);
-  background-color: green;
+  /* transform: translateZ(-2px) scale(3); */
+}
+.background{
+  transform: translateZ(-2px);
+  // background-color: green;
   /* transform: translateZ(-2px) scale(3); */
 }
 .parallax-header{
